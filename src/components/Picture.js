@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Image = styled.img`
-  max-width: 375px;
+  max-width: 300px;
   height: auto;
   border: 3px solid #18FFFF;
   border-radius: 10px;
