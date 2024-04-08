@@ -10,8 +10,8 @@ const Image = styled.img`
 `;
 
 const PictureContainer = styled.div`
-  margin-top: 40px;
-  margin-left: 20px;
+  margin-top: 30px;
+  align-items: center;
   flex-shrink: 0; 
   overflow: hidden; 
 `;
