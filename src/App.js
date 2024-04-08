@@ -9,10 +9,12 @@ const Container = styled.div`
   color: #00ADB5;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  border-radius: 10px;
 `;
 
 const Content = styled.div`
@@ -21,6 +23,8 @@ const Content = styled.div`
   max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
   justify-content: space-between;
   text-align: center;
   position: relative;
