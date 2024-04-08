@@ -6,6 +6,13 @@ const AboutContainer = styled.div`
   padding: 20px;
   border-radius: 10px;
   color: #00ADB5;
+
+  @media (max-width: 401px) {
+    max-width: 300px;
+  }
+  @media (min-width: 401px) {
+    max-width: 100%;
+  }
 `;
 
 const AboutTitle = styled.h3`

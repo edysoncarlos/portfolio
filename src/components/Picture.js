@@ -7,6 +7,13 @@ const Image = styled.img`
   border: 3px solid #18FFFF;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
+  @media (min-width: 401px) {
+    max-width: 100%;
+  }
+  @media (min-width: 905px) {
+    max-width: 300px;
+  }
+
 `;
 
 const PictureContainer = styled.div`

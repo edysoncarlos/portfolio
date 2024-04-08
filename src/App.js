@@ -15,6 +15,8 @@ const Container = styled.div`
   align-items: center;
   overflow: hidden;
   border-radius: 10px;
+
+
 `;
 
 const Content = styled.div`
