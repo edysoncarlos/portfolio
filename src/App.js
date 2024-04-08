@@ -133,7 +133,6 @@ const App = () => {
           </HeaderEffect>
         </Header>
 
-
         <SectionBox>
           <Picture/>
           <Contact/>

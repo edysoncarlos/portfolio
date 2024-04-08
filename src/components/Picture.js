@@ -15,11 +15,12 @@ const PictureContainer = styled.div`
   flex-shrink: 0; 
   overflow: hidden; 
 `;
-
+const imageUrl = process.env.PUBLIC_URL + '/generaleddy.png';
 const Picture = () => {
   return (
     <PictureContainer>
-      <Image src="/https://drive.google.com/file/d/1ivJj72_-8cPd1N3isb88p67JZP8r3_qp/view?usp=sharing" alt="..." />
+      <Image src={imageUrl} alt="..." />
+      
     </PictureContainer>
   );
 };
