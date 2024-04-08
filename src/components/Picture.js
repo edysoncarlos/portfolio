@@ -19,7 +19,7 @@ const PictureContainer = styled.div`
 const Picture = () => {
   return (
     <PictureContainer>
-      <Image src="/generaleddy.png" alt="..." />
+      <Image src="/https://drive.google.com/file/d/1ivJj72_-8cPd1N3isb88p67JZP8r3_qp/view?usp=sharing" alt="..." />
     </PictureContainer>
   );
 };
